@@ -1,0 +1,105 @@
+/* Design Nr.1
+    Farben: #E3516E, #F7F3D7, #51B5A9, #FADE8B, */
+
+article{
+    height: 100vh;
+    width: 100vw;
+    background:#E3516E;   
+    position: relative; 
+}
+
+article>div:nth-of-type(1){
+    height: 250px;
+    width: 250px;
+    background: #F7F3D7;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border-top-right-radius: 100%;
+}
+
+article>div:nth-of-type(2){
+    height: 250px;
+    width: 250px;
+    background: #51B5A9;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform:translateX(-100%);
+    border-top-left-radius: 100%;
+}
+
+article>div:nth-of-type(3){
+    height: 250px;
+    width: 250px;
+    background: #FADE8B;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border-bottom-right-radius: 100%;
+    transform:translateX(-100%);
+    transform:translateY(+100%);
+}
+
+
+/*=============NR2=============*/
+
+/*Design Nr.2
+Farben: #191210, #ECA03D, #84271C
+*/
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background:#000;   
+    position: relative; 
+}
+
+section>div:nth-of-type(1){
+    height: 300px;
+    width: 300px;
+    border: 50px solid #eca03d;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section>div:nth-of-type(2){
+    height: 150px;
+    width: 150px;
+    background: #84271C;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section>div:nth-of-type(3){
+    height: 100px;
+    width: 200px;
+    border-top:50px solid #eca03d;
+    border-right:50px solid #eca03d;
+    border-left:50px solid #eca03d;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    position: absolute;
+    top: 50%;
+    left: 18.8%;
+    transform: translateY(-100%);
+}
+
+section>div:nth-of-type(4){
+    height: 100px;
+    width: 200px;
+    border-bottom:50px solid #eca03d;
+    border-right:50px solid #eca03d;
+    border-left:50px solid #eca03d;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+    top: 50%;
+    left: 60.4%;
+}
